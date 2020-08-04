@@ -1,0 +1,83 @@
+.menu {
+    text-align: center;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: inline-block ;
+    padding: 20px 40px;
+}
+.menu a:hover {
+    background-color: gray;
+    color: honeydew;
+}
+.header {
+    text-align: center;
+    color: aliceblue;
+    padding: 200px 0px;   
+    background-image: url(img/polygons.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.header a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+}
+.header a:hover {
+    background-color: gray;
+}
+.header p {
+    margin: 45px;
+}
+.info {
+    padding: 40px 0px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+h2 {
+    text-align: center;
+}
+.info img {
+    width: 400px;
+    float: right;
+}
+.card {
+    display: inline-block;
+    width: 20%;
+    margin: 20px 10px;
+    box-shadow: 0 2px 5px gray;
+    padding: 20px;
+    text-align: left;
+}
+.card img {
+    width: 100%;
+}
+.team {
+    text-align: center;
+}
+.card h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.card .position {
+    color: gray;
+    font-size: 20px;
+}
+.card a {
+    width: 100%;
+    background-color: #055b73;
+    display: inline-block;
+    padding: 14px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.card .desc {
+    font-size: 20px;
+}
